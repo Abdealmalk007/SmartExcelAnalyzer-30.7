@@ -1,19 +1,19 @@
-# SmartExcelAnalyzer 30.7.4 — PRO TECH
+# SmartExcelAnalyzer 30.7.5 — PRO TECH
 
 **برنامج لتحليل ملفات Excel وإعداد التقارير على Windows 10/11 x64.**
 
-**الإصدار الحالي:** `v30.7.4` — **Beta / Preview** (14 نوفمبر 2026). يتضمن الإصدار الجديد إصلاحات للتشغيل والتصدير، وتوحيد الهوية البصرية والأيقونة الجديدة.
+**الإصدار الحالي:** `v30.7.5` — **Beta / Preview** (14 نوفمبر 2026). يتضمن الإصدار الجديد إصلاحات للتشغيل والتصدير، وتوحيد الهوية البصرية والأيقونة الجديدة.
 
 ## التنزيل المباشر
 
 | النسخة | الاستخدام | التحميل |
 |---|---|---|
-| Windows Setup | تثبيت البرنامج بالطريقة المعتادة | [SmartExcelAnalyzer_30.7.4_Setup.exe](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.4/SmartExcelAnalyzer_30.7.4_Setup.exe) |
-| Windows Portable | التشغيل من مجلد دون تثبيت | [SmartExcelAnalyzer_30.7.4_PORTABLE.zip](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.4/SmartExcelAnalyzer_30.7.4_PORTABLE.zip) |
+| Windows Setup | تثبيت البرنامج بالطريقة المعتادة | [SmartExcelAnalyzer_30.7.5_Setup.exe](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SmartExcelAnalyzer_30.7.5_Setup.exe) |
+| Windows Portable | التشغيل من مجلد دون تثبيت | [SmartExcelAnalyzer_30.7.5_PORTABLE.zip](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SmartExcelAnalyzer_30.7.5_PORTABLE.zip) |
 
-[صفحة الإصدار وملفات التحقق](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.4) · [صفحة البرنامج على موقع الغد الرقمي](https://alghad.digital/programs/smart-excel/) · [English description](https://alghad.digital/en/programs/smart-excel/)
+[صفحة الإصدار وملفات التحقق](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.5) · [صفحة البرنامج على موقع الغد الرقمي](https://alghad.digital/programs/smart-excel/) · [English description](https://alghad.digital/en/programs/smart-excel/)
 
-## أبرز التحسينات في 30.7.4
+## أبرز التحسينات في 30.7.5
 
 - دعم اختبارات القراءة لصيغ `XLSX` و`XLS` و`XLSB` و`XLSM` و`ODS`، إضافة إلى مسارات `CSV`.
 - إصلاح تعطل `UnicodeEncodeError` عند تصدير التقارير عبر Windows مع النصوص العربية ورموز Emoji.
@@ -27,10 +27,10 @@
 
 | الملف | الحجم بالبايت | SHA-256 |
 |---|---:|---|
-| `SmartExcelAnalyzer_30.7.4_Setup.exe` | 268115827 | `857B4A6E72EFDE2174BC61FFDD9D4E083F9EB3CC9DDAECE1DA988C4A9179664F` |
-| `SmartExcelAnalyzer_30.7.4_PORTABLE.zip` | 315275246 | `D402F52EE16A56A16661C8C8179A2079229D40B27DA3F9DD54B0F13B798EF597` |
+| `SmartExcelAnalyzer_30.7.5_Setup.exe` | 268121391 | `D81D759B560E679065CE1504F0AAAAD7FD1AE97D431F16A2B12A674D824D4F6B` |
+| `SmartExcelAnalyzer_30.7.5_PORTABLE.zip` | 315287554 | `21F6559B7A3B56110E5CF9071F698FAD4208A040AA8A3D43B494761517A8597B` |
 
-يمكن مراجعة [ملف SHA256SUMS](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.4/SHA256SUMS.txt) و[تقرير ضمان الجودة بالعربية](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.4/QA_FINAL_RELEASE_REPORT_AR.md) و[سجل فحص المثبّت](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.4/INSTALLER_QA_RESULT.json).
+يمكن مراجعة [ملف SHA256SUMS](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SHA256SUMS.txt) و[تقرير ضمان الجودة بالعربية](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/QA_FINAL_RELEASE_REPORT_AR.md) و[سجل فحص المثبّت](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/INSTALLER_QA_RESULT.json).
 
 ## متطلبات وملاحظات
 

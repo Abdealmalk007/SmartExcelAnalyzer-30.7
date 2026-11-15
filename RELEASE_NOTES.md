@@ -1,32 +1,26 @@
-# SmartExcelAnalyzer v30.7.4 — Windows Beta / Preview
+# SmartExcelAnalyzer 30.7.5 — Modern Responsive UI (Beta)
 
-**تحديث تصحيحي للتشغيل والتحليل التكيفي** — Windows 10/11 x64
+**PRO TECH · Windows 10/11 x64 · 15 November 2026**
 
-## أهم إصلاحات التشغيل
+## UI improvements
 
-- إعادة تنظيم شاشة اتفاقية الاستخدام باللغة العربية، وزر واضح لقبول الشروط وتشغيل البرنامج.
-- إضافة شاشة تقدم أثناء التحميل الأولي للمكتبات وقاعدة البيانات، بدلاً من ظهور اتفاقية الاستخدام وحدها ثم عدم وضوح ما يحدث.
-- معالجة أخطاء بدء التشغيل بتسجيل مفصل في `startup_fatal.txt` عند تعذر فتح الواجهة.
-- اختبار نافذة التطبيق الرئيسية فعليًا على Windows 11: ظهرت واجهة `v30.7.4` وظلت متاحة طوال فترة التحقق.
+- Modern responsive workbench with a cleaner top toolbar and clearly labeled **Open file**, **Export**, and **Menu** actions.
+- RTL Arabic navigation and optional LTR English labels.
+- Compact horizontal Excel sheet tabs; the empty sheet strip is hidden before opening a workbook.
+- Adaptive filter toolbar, collapsible sorting and numeric range controls, grouped summaries, and one-click Excel/PDF report exports.
+- The imported report title is displayed prominently. Its filename-derived or worksheet-derived headings and semantic column roles drive available filters, measurements, and grouping options.
+- Sidebar toggle and automatic responsive layout; verified at 1040×720, 1366×768, and 1600×900.
+- Continued use of the approved PRO TECH logo without the old branding.
 
-## فهم ملفات Excel والتقارير تلقائيًا
+## Verified on Windows
 
-- قراءة اسم التقرير من مقدمة ورقة Excel، حتى عندما تسبق الجدول عناوين الشركة والتواريخ والشعارات.
-- التعرف على صف العناوين الحقيقي في نماذج **تقرير أوامر الشغل** و**تقرير حركة الزيارات** و**تقرير طلب صرف من المخازن**.
-- التعرف الدلالي على أعمدة **الموظف** و**المعرض** و**لون الرخام** و**المبلغ** و**عدد الأمتار** و**الكمية** و**التاريخ** و**رقم العقد** و**رقم الاتصال**.
-- فرز وتصفية الأعمدة تبعًا للحقول الموجودة فعليًا في الملف، مع تجميع الأمتار والمبالغ والكميات وفق نوع العمود. أرقام العقود والهواتف لا تُعامل باعتبارها مبالغ قابلة للجمع.
-- تصدير تقارير Excel وPDF بعنوان التقرير الفعلي بالخط العريض.
+- **21/21** interactive UI checks passed: navigation, sidebar toggle, sort panel, dynamic fields, report title, filtering by showroom, sorting amounts, and resizing.
+- **25/25** final installer checks passed on an isolated Windows machine environment, including installation, opening the **visible main window** from the installed binary, Excel import/JSON analysis, Excel/PDF export, and uninstall with test-user data preserved.
+- On the successful isolated install, the main window appeared **6 seconds** after launch.
+- Source files, business data, and the existing public v30.7.4 release were preserved while verifying the preview.
 
-## الاختبارات
+## Safety, scope and limitations
 
-- نجاح اختبارات الوحدات المستهدفة `13/13` بما فيها صلاحية اتفاقية الاستخدام والتعرف على أنواع البيانات.
-- نجاح إنشاء واجهة البرنامج الرئيسية من النسخة التنفيذية الجديدة على Windows 11 واختبار بقائها مفتوحة.
-- نجاح اختبار قبول الترخيص لأول مرة باستخدام أزرار واجهة Tk الحقيقية، دون المساس ببيانات المستخدم.
-- نجاح استيراد بيانات اختبارية مجهّلة الهوية تحاكي هياكل تقارير المؤسسة المذكورة، وصيغة `XLS` القديمة.
-- **يُرجى مراجعة ملف `INSTALLER_QA_RESULT.json` لإحصائيات اختبار المثبّت النهائي.**
+The v30.7.5 installer is a **Beta/Preview** and is **not Authenticode signed**; Windows SmartScreen may display a warning. Passing QA does not guarantee universal compatibility with all Windows devices or every damaged/secured spreadsheet. Upgrade only after backing up important user reports and settings.
 
-## حدود الاعتماد
-
-هذه نسخة **Beta/Preview** وليست ضمانًا مطلقًا للتوافق مع أي ملف Excel متضرر أو محمي أو غير قياسي. الاختبارات على ملفات مشابهة لا تعني اختبار كل ملف مرفق بكامل صفوفه. المثبّت غير موقّع رقميًا بشهادة Authenticode؛ قد يعرض Windows SmartScreen تنبيهًا.
-
-Copyright © 2026–2027 **PRO TECH**. **All Rights Reserved**. تراخيص الأطراف الثالثة مستقلة ومحفوظة.
+Copyright © 2026–2027 PRO TECH — **All Rights Reserved**. Third-party licenses remain applicable.
