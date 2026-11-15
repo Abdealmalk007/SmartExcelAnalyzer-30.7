@@ -1,48 +1,45 @@
-# SmartExcelAnalyzer 30.7.5 — PRO TECH
+# SmartExcelAnalyzer 30.7.6 — PRO TECH
 
-**برنامج لتحليل ملفات Excel وإعداد التقارير على Windows 10/11 x64.**
+برنامج Windows 10/11 x64 لتحليل Excel وإنشاء تقارير وDashboard تفاعلي.
 
-**الإصدار الحالي:** `v30.7.5` — **Beta / Preview** (14 نوفمبر 2026). يتضمن الإصدار الجديد إصلاحات للتشغيل والتصدير، وتوحيد الهوية البصرية والأيقونة الجديدة.
+**أحدث إصدار موصى بتنزيله:** `v30.7.6` — **Beta / Preview** (15 نوفمبر 2026). الإصدارات السابقة متاحة للأرشفة، ولم تُحذف.
 
 ## التنزيل المباشر
 
-| النسخة | الاستخدام | التحميل |
+| النسخة | الاستخدام | رابط التحميل |
 |---|---|---|
-| Windows Setup | تثبيت البرنامج بالطريقة المعتادة | [SmartExcelAnalyzer_30.7.5_Setup.exe](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SmartExcelAnalyzer_30.7.5_Setup.exe) |
-| Windows Portable | التشغيل من مجلد دون تثبيت | [SmartExcelAnalyzer_30.7.5_PORTABLE.zip](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SmartExcelAnalyzer_30.7.5_PORTABLE.zip) |
+| Windows Setup | التثبيت المعتاد | [SmartExcelAnalyzer_30.7.6_Setup.exe](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_Setup.exe) |
+| Windows Portable | التشغيل دون تثبيت بعد فك ZIP | [SmartExcelAnalyzer_30.7.6_PORTABLE.zip](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_PORTABLE.zip) |
 
-[صفحة الإصدار وملفات التحقق](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.5) · [صفحة البرنامج على موقع الغد الرقمي](https://alghad.digital/programs/smart-excel/) · [English description](https://alghad.digital/en/programs/smart-excel/)
+[GitHub Release v30.7.6](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/tag/v30.7.6) · [صفحة البرنامج العربية](https://alghad.digital/programs/smart-excel/) · [English page](https://alghad.digital/en/programs/smart-excel/)
 
-## أبرز التحسينات في 30.7.5
+## التحسينات الرئيسية
 
-- دعم اختبارات القراءة لصيغ `XLSX` و`XLS` و`XLSB` و`XLSM` و`ODS`، إضافة إلى مسارات `CSV`.
-- إصلاح تعطل `UnicodeEncodeError` عند تصدير التقارير عبر Windows مع النصوص العربية ورموز Emoji.
-- تحسينات على فحص البيانات، وتقارير `PDF` و`Excel`، واختبارات سلامة المخرجات.
-- توحيد شعار **PRO TECH** الجديد المخصص لتحليل الجداول وإزالة أصول الشعار القديم من نسخة التوزيع الحالية.
-- حزمة مستقلة لا تتطلب تثبيت Python على جهاز المستخدم، مع خيار Portable منفصل.
+- إصلاح شاشة اتفاقية الاستخدام العربية وجعل زر الموافقة مرئيًا على الشاشات الصغيرة.
+- إصلاح تشغيل التطبيق بعد الموافقة، وتضمين مكتبات `customtkinter` و`Tcl/Tk` في نسخة Windows المجمّعة.
+- تحليل ملف Excel تلقائيًا عند فتحه، مع لوحة مؤشرات KPI ورسوم bar/donut/line وفلاتر تفاعلية.
+- فصل المجاميع المالية عن الأمتار والكميات، وعدم احتساب أرقام الهواتف والعقود كمبالغ.
+- دعم صيغ `XLS` و`XLSX` و`XLSM` و`XLSB` و`CSV` ضمن الحالات المختبرة.
+- تصدير `PDF` و`Excel` و`JSON` مع تقارير وعناوين مناسبة.
 
-## التحقق من الإصدار
+## إثبات سلامة الملفات
 
-تم اختبار المثبّت النهائي بحزمة قبول شملت **25/25** فحصًا ناجحًا: التثبيت النظيف، تشغيل واجهة Tk، تحليل Excel، إنشاء ملفات JSON وPDF وXLSX، إزالة البرنامج مع بقاء بيانات اختبارية، والتحقق من أصول الشعار الجديد. كما تم تنزيل ملفي التثبيت وPortable كاملين من GitHub ومطابقة SHA-256 مع الملفات الأصلية.
-
-| الملف | الحجم بالبايت | SHA-256 |
+| اسم الملف | الحجم (بايت) | SHA-256 |
 |---|---:|---|
-| `SmartExcelAnalyzer_30.7.5_Setup.exe` | 268121391 | `D81D759B560E679065CE1504F0AAAAD7FD1AE97D431F16A2B12A674D824D4F6B` |
-| `SmartExcelAnalyzer_30.7.5_PORTABLE.zip` | 315287554 | `21F6559B7A3B56110E5CF9071F698FAD4208A040AA8A3D43B494761517A8597B` |
+| `SmartExcelAnalyzer_30.7.6_Setup.exe` | 268137884 | `9FC7168DC6685EF747BA50C170FC51B6C228D49EA74F348771CEE65115AB93FF` |
+| `SmartExcelAnalyzer_30.7.6_PORTABLE.zip` | 315298042 | `5485E4E452B45AF833A7F7958949FC4A643A40C841447DAF2C05297962280959` |
 
-يمكن مراجعة [ملف SHA256SUMS](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/SHA256SUMS.txt) و[تقرير ضمان الجودة بالعربية](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/QA_FINAL_RELEASE_REPORT_AR.md) و[سجل فحص المثبّت](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.5/INSTALLER_QA_RESULT.json).
+[ملف SHA256SUMS الرسمي](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SHA256SUMS.txt) · [سجل اختبار التثبيت](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/INSTALLER_QA_RESULT.json)
 
-## متطلبات وملاحظات
+**اختبارات موثقة:** 27/27 فحصًا ناجحًا لمثبّت QA معزول يحمل payload مطابقًا لحزمة التوزيع، و10/10 لنسخة Portable بعد استخراجها. لم نثبّت ملف Setup العام فوق نسخة المستخدم الحالية 30.7.5 حفاظًا على بياناتها. لا يعني ذلك ضمان التوافق مع كل ورقة Excel أو جهاز Windows.
 
-- **النظام:** Windows 10/11 بنواة x64.
-- **Portable:** فك الضغط في مجلد قابل للكتابة، ثم تشغيل `RUN_PORTABLE_WINDOWS.bat`.
-- يوصى بنسخ الملفات والإعدادات والتقارير المهمة احتياطيًا قبل ترقية نسخة سابقة.
-- **التوقيع الرقمي:** لا تتضمن هذه الحزم توقيع `Authenticode` معتمدًا؛ قد يظهر تحذير Windows SmartScreen. تحقّق من عنوان GitHub الرسمي وبصمة SHA-256 قبل التثبيت.
-- الإصدار **تجريبي**؛ نجاح اختبارات محددة لا يضمن توافق جميع ملفات Excel غير القياسية أو جميع أجهزة Windows.
-- يضم المستودع الوثائق والأيقونات وملفات التوزيع، ولا ينشر الشيفرة المصدرية للتطبيق.
+## التثبيت والترخيص
 
-## حقوق الملكية
+- **المتطلبات:** Windows 10/11 x64. لا يلزم تثبيت Python.
+- **Portable:** فك الضغط وشغّل `RUN_PORTABLE_WINDOWS.bat`.
+- احفظ نسخة احتياطية من ملفاتك وإعداداتك وتقاريرك قبل الترقية.
+- الملفات **غير موقّعة رقميًا عبر Authenticode**؛ قد تظهر رسالة Windows SmartScreen. تحقق من المصدر الرسمي والبصمة قبل التشغيل، ولا تعطّل الحماية.
+- الإصدار Beta / Preview؛ تنصح PRO TECH بالتجربة في بيئة غير إنتاجية أولًا.
+- المستودع يعرض حزم التوزيع والوثائق، وليس مصدر التطبيق الخاص.
 
-Copyright © 2026–2027 **PRO TECH**. **All Rights Reserved.**
-
-المطور: عبدالملك علي حمزة. لا يلغي هذا الإعلان الحقوق أو التراخيص الممنوحة سابقًا لنسخ سابقة أو للمكونات الخارجية المستقلة.
+© 2026–2027 PRO TECH. **All Rights Reserved**. تراخيص المكونات الخارجية والإصدارات المرخصة سابقًا تظل سارية.

@@ -1,26 +1,22 @@
-# SmartExcelAnalyzer 30.7.5 — Modern Responsive UI (Beta)
+# SmartExcelAnalyzer v30.7.6 — Windows Beta / Preview
 
-**PRO TECH · Windows 10/11 x64 · 15 November 2026**
+**PRO TECH · 15 November 2026 · Windows 10/11 x64**
 
-## UI improvements
+## What's new
+- Corrected Arabic first-run license dialog with an always-visible acceptance control.
+- Fixed the frozen EXE startup dependencies (CustomTkinter/Tcl/Tk) and main-window transition.
+- Added automatic Excel analysis and a responsive multi-chart Dashboard with KPI values.
+- Added semantic detection of amounts, meters, quantities, employee and showroom fields; identifier columns are excluded from summation.
+- Verified XLS, XLSX, XLSM, XLSB, CSV samples and Excel/JSON/PDF exports.
+- Packaged both Setup EXE and extracted-and-tested Portable ZIP.
 
-- Modern responsive workbench with a cleaner top toolbar and clearly labeled **Open file**, **Export**, and **Menu** actions.
-- RTL Arabic navigation and optional LTR English labels.
-- Compact horizontal Excel sheet tabs; the empty sheet strip is hidden before opening a workbook.
-- Adaptive filter toolbar, collapsible sorting and numeric range controls, grouped summaries, and one-click Excel/PDF report exports.
-- The imported report title is displayed prominently. Its filename-derived or worksheet-derived headings and semantic column roles drive available filters, measurements, and grouping options.
-- Sidebar toggle and automatic responsive layout; verified at 1040×720, 1366×768, and 1600×900.
-- Continued use of the approved PRO TECH logo without the old branding.
+## Quality evidence and limitations
+- **27/27** isolated Windows installer checks passed, including the installed GUI, exports and data-preserving uninstallation.
+- **10/10** extracted Portable checks passed.
+- The installed QA payload matches the public build, but the **public Setup EXE was not installed over an existing 30.7.5 system**. The QA installer had a distinct AppId to avoid touching the current installation.
+- This is a **Beta/Preview**, and **no trusted Authenticode code-signing certificate** was available. Windows SmartScreen might warn. Back up existing data before upgrading.
+- Unusual, password-protected, damaged or otherwise incompatible workbooks may still need additional testing.
 
-## Verified on Windows
+[Download Setup](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_Setup.exe) · [Download Portable ZIP](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SmartExcelAnalyzer_30.7.6_PORTABLE.zip) · [SHA-256](https://github.com/Abdealmalk007/SmartExcelAnalyzer-30.7/releases/download/v30.7.6/SHA256SUMS.txt)
 
-- **21/21** interactive UI checks passed: navigation, sidebar toggle, sort panel, dynamic fields, report title, filtering by showroom, sorting amounts, and resizing.
-- **25/25** final installer checks passed on an isolated Windows machine environment, including installation, opening the **visible main window** from the installed binary, Excel import/JSON analysis, Excel/PDF export, and uninstall with test-user data preserved.
-- On the successful isolated install, the main window appeared **6 seconds** after launch.
-- Source files, business data, and the existing public v30.7.4 release were preserved while verifying the preview.
-
-## Safety, scope and limitations
-
-The v30.7.5 installer is a **Beta/Preview** and is **not Authenticode signed**; Windows SmartScreen may display a warning. Passing QA does not guarantee universal compatibility with all Windows devices or every damaged/secured spreadsheet. Upgrade only after backing up important user reports and settings.
-
-Copyright © 2026–2027 PRO TECH — **All Rights Reserved**. Third-party licenses remain applicable.
+Copyright © 2026–2027 PRO TECH — All Rights Reserved. Third-party licenses remain applicable.
